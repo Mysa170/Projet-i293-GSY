@@ -1,0 +1,187 @@
+body {
+    background-color: #ddd2d2;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #000000;
+    background-color: #eaeaec;
+    font-size: 1.0rem;
+}
+
+.div-contexte{
+    color: #000000;
+}
+
+main {
+    flex-grow: 1; /* Permet à la section main de prendre l'espace restant */
+}
+
+.grid {
+    display: grid;
+    gap: 0.5rem;
+    column-gap: 1rem;
+    grid-template-columns: 3fr 4fr 4fr;
+    grid-template-rows: 1fr 1fr; /* Chaque ligne prend une hauteur équivalente */
+    flex-grow: 1; /* Permet à la grille de remplir l'espace restant dans main */
+}
+
+.grid-item {
+    border-radius: .15rem;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 500%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: inherit;
+    font-size: 1rem;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+#item-1, #item-4 {
+    transition: transform .6s;
+    grid-row: span 4;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    height: 100%;
+}
+
+
+#item-1 {
+    grid-column: 1;
+    background-image: url(Snowfall_Ep607-ScDay-RayM-00572R.jpg);
+}
+
+#item-4 {
+    grid-column: 3;
+    background-image: url(teddy.webp);
+}
+
+#item-2 {
+    transition: transform .6s;
+    grid-column: 2;
+    grid-row: 1;
+
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-transform: uppercase;
+    border-radius: 50px;
+
+    background-image: url(Leon_Simmons_Snowfall_1684523664-1024x683.webp);
+    height: 250px;
+    background-size: cover;
+}
+
+#item-3 {
+    transition: transform .6s;
+    grid-column: 2;
+    grid-row: 2;
+
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-transform: uppercase;
+    border-radius: 50px;
+
+    background-image: url(Alon-Aboutboul-as-Avi-Drexler-1024x683.jpg);
+    height: 250px;
+    background-size: cover;
+}
+
+
+
+#item-5 {
+    transition: transform .6s;
+    grid-column: 2;
+    grid-row: 3;
+
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-transform: uppercase;
+    border-radius: 50px;
+
+    background-image: url(p06ngnh0.jpg);
+    background-size: cover;
+    height: 250px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+#item-2, #item-3, #item-5 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+#item-1:hover {
+    transform: scale(1.02);
+}
+
+#item-2:hover {
+    transform: scale(1.02);
+}
+
+#item-3:hover {
+    transform: scale(1.02);
+}
+
+#item-4:hover {
+    transform: scale(1.02);
+}
+
+#item-5:hover{
+    transform: scale(1.02)
+}
+
+footer {
+    color: rgb(0, 0, 0);
+}
+
+#item-8 {
+    background-color: #eaeaec;
+}
