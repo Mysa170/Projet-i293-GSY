@@ -17,23 +17,23 @@
      display: flex;
      justify-content: flex-start;
      background-color: transparent;
-     }
+ }
  
-     .logo-link {
+ .logo-link {
      text-decoration: none;
-     }
+ }
  
-     .logo {
+ .logo {
      height: 60px;
      width: auto;
      transition: transform 0.3s ease;
      border-radius: 10px;
      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-     }
+ }
  
-     .logo:hover {
+ .logo:hover {
      transform: scale(1.05);
-     }
+ }
 
    .container {
     min-height: 100vh;
@@ -94,19 +94,23 @@
         transform: scale(1.02)
    }
 
-   h3 {
+   h2 {
     text-decoration: underline;
+    margin-bottom: 20px;
    }
 
    .box {
+    
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
     transition: transform .6s;
     background-color: #b4b4b4;
     padding: 20px;
     border-radius: 15px;
     font-weight: bold;
     text-align: center;
-    height: 350px;
-    width: 350px;
     overflow: auto;
     box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
    }

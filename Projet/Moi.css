@@ -9,31 +9,32 @@
     width: 100%;
     font-family: 'Georgia', serif;
     background-color: #ddd2d2;
+    min-height: 100vh;
    }
 
    header {
-     width: 100%;
-     padding: 20px;
-     display: flex;
-     justify-content: flex-start;
-     background-color: transparent;
-     }
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    }
  
-     .logo-link {
-     text-decoration: none;
-     }
+    .logo-link {
+    text-decoration: none;
+    }
  
-     .logo {
-     height: 60px;
-     width: auto;
-     transition: transform 0.3s ease;
-     border-radius: 10px;
-     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-     }
- 
-     .logo:hover {
-     transform: scale(1.05);
-     }
+    .logo {
+    height: 60px;
+    width: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .logo:hover {
+    transform: scale(1.05);
+    }
 
    .container {
     min-height: 100vh;
@@ -96,6 +97,7 @@
 
    h3 {
     text-decoration: underline;
+    margin-bottom: 20px;
    }
 
    .box {
